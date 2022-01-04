@@ -1,0 +1,575 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+
+.banner{
+    width: 100%;
+}
+.banner img{
+    width:100%
+}
+body{
+    width: 100vw;
+}
+.main_section_article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    width:100%;
+}
+
+.main_section_article i{
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #39b54a;
+        background-color: #FFF;
+        border-radius: 50%;
+        position: absolute;
+        right: 20px;
+        top: -15px;
+    }
+
+.main-header{
+    background-color: #EAC926;
+    font-size: 12px;
+    font-family: 'roboto';
+    padding: 1em;
+    width:100vw;
+   
+}
+.main-navbar{
+    display: none;
+}
+h2{
+    font-size: 24px;
+    font-family: 'roboto';
+    text-align: center;
+} 
+
+#precio{
+    font-size:18px;
+    font-family: 'roboto';
+}
+#descuento{
+    font-size:16px;
+    font-family: 'roboto';
+}
+#descripcion{
+    font-size:16px;
+    font-family: 'roboto';
+    display:none;
+}
+.burger-menu{
+    width: 1em;
+    color: white;
+    background-color: #03264C;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5em;
+    border-radius: 5px;
+}
+footer{
+    text-align: center;
+    font-family: 'roboto';
+}
+.cuotas{
+    text-align: center;
+    font-family: 'roboto';
+    }
+
+.main-navbar ul{
+    list-style: none;
+
+}
+
+.fa-credit-card{
+    color: #0000FF;
+    font-size: 2em;
+}
+.fa-gift{
+    color: #0000FF;
+    font-size: 2em;
+
+}
+.fa-user-shield{
+    color: #0000FF;
+    font-size: 2em;
+}
+.fa-truck{
+    color: green;
+    font-size: 1em;
+    text-align:left;
+    border-radius: 50%;
+    border: solid 1px green;
+    padding: 5px;
+}
+.main{
+    width:100vw;
+    margin: auto;
+    }
+.product{
+    margin: 10px;
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+    box-sizing: border-box;
+    position:relative;
+   /* box-shadow: 0px 0px 10px rgb(100, 100, 100); */
+    font-family: 'roboto';
+    transition: all 450ms;
+}
+.product img{
+    width: 90%;
+   
+}
+.product:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+.icon{
+    position:relative;
+}
+.caja-padre-menu-hamburguesa{
+    background-color: #436080;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5em;
+    border-radius: 5px;
+    display:flex;
+    justify-content:center;
+    width:fit-content;
+}
+
+
+.caja-padre-logo-barra{
+    display:flex;
+}
+
+.logo-ml img{
+    width: 50%;    
+}
+.buscador{
+    width:50%
+}
+
+/*------------------------------------------------------ Estilos para formulario--------------------------------- */
+.formulario{
+    background-color: rgb(100, 149, 237);
+    border: solid 1px rgb(128, 128, 128);
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    width:50vw;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    font-family:'roboto';
+    
+}
+.campo{
+    margin: 20px;
+    border-radius: 5px;
+    width:90%;
+    padding: 8px;
+
+}
+.titular{
+    font-family:'roboto';
+    font-size: 1em;
+    font-weight:bold;
+    justify-content: center;
+    margin-bottom: 5px;
+    width:90%;
+    font-style: italic;
+}
+.intereses{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.caja-perfil{
+    width:90%;
+}
+.ordenar{
+    display:block;
+    margin-bottom: 5px;
+}
+.botones{
+    display:inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+.boton_form{
+    font-size:15px;
+    font-style:oblique;
+    padding: 5px;
+    font-weight: bold;
+}
+
+
+
+.boton-login{
+    font-size:15px;
+    font-style:oblique;
+    padding: 5px;
+    font-weight: bold;
+    transition: all 450ms;
+}
+.boton-login:hover{
+    background-color: #0022AA;
+    color: white;
+}
+
+/*------------------------------------------------------ Estilos para formulario--------------------------------- */
+
+
+
+
+
+
+
+/*------------------------------------------------------Media querie para MOBILE FIRST---------------------------*/
+@media(min-width:361px){ 
+    .caja-padre-logo-barra{
+        display:flex;
+    }
+
+    .logo-ml img{
+        width: 50%;    
+    }
+    .buscador{
+        width:50%
+    }
+    .burger-menu{
+        width: 1em;
+        color: white;
+        background-color: #436080;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0.5em;
+        border-radius: 5px;
+        text-align: center;
+        
+    }
+    .caja-padre-menu-hamburguesa{
+        background-color: #436080;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0.5em;
+        border-radius: 5px;
+        display:flex;
+        justify-content:center;
+        width:fit-content;
+    }
+    .main_section_article{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:center;
+        width:100%;
+    }
+
+    #descripcion{
+        display:none;
+    }
+    .product{
+       
+       /* box-shadow: 0px 0px 10px rgb(100, 100, 100); */
+        margin:10px;
+        
+    }
+    .product img{
+        width: 90%;
+    }
+    .main-navbar{
+        display: flex;
+        justify-content: space-around;
+    }
+    .main-navbar ul{
+        list-style: none;
+        display: none; 
+    
+    }
+    .main-navbar li {
+        margin: 5px;
+    }
+    .main-navbar a{
+        color: #222222;
+        text-decoration: none;
+        padding: 5px 0;
+    
+    }
+    .burger-menu{
+        display: none;
+    }
+    .main{
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+    .price_element{
+        
+        font-size:18px;
+        font-family: 'roboto';
+
+    }
+    .price_discount{
+       
+        font-size:16px;
+        font-family: 'roboto';
+    }
+    .main_section_article{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:center;
+        width:100%;
+    }
+    .main{
+        width:90%;
+        margin: auto;
+        }
+}
+
+
+/*---------------------------480px media querie para Smartphones grandes y tablets---------------------------*/
+@media(min-width:480px){
+    #descripcion{
+        display:inline;
+    }
+    .product{
+       /* box-shadow: 0px 0px 10px rgb(100, 100, 100); */
+        display:flex;  
+        flex-direction:column;
+        flex-wrap: wrap; 
+        width: 35%;
+        margin:5px;
+        padding:5px;
+
+    }
+    .product img{
+        width:50%;
+    }
+    .product_info{
+        width: 50%;
+    }
+    .main-navbar{
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .main-navbar ul{
+        list-style: none;
+        display: flex;
+    
+    }
+    .main-navbar a{
+        color: #222222;
+        text-decoration: none;
+        padding: 5px 0;
+    }
+    .main-navbar li {
+        margin: 5px;
+    }
+    .burger-menu{
+        display: none;
+    }
+    .caja-padre-logo-barra{
+        display: flex; 
+        justify-content: space-between;
+        width: 70%;
+    }
+    .buscador{
+        display:flex;
+        align-self:center;
+        width:30%;
+    }
+    .visita{
+        text-align:left;
+        
+    }
+    .price{
+        display: inline;
+        flex-direction: row;
+        flex-wrap:wrap;
+        align-content:center;
+        align-items:center;
+    
+     }
+    .price_element{
+        width: 30%;
+        font-size:18px;
+        font-family: 'roboto';
+
+    }
+    .price_discount{
+        width: 70%;
+        font-size:16px;
+        font-family: 'roboto';
+    }
+   
+       
+    .main_section_article{
+        display: flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        width:90vw;
+        justify-content: space-evenly;
+        align-items:center;
+    }
+       
+    
+        .main_section_article i{
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #39b54a;
+        background-color: #FFF;
+        border-radius: 50%;
+        position: absolute;
+        right: 20px;
+        top: -15px;
+    }
+    .caja-padre-menu-hamburguesa{
+        display: none;
+    }
+    .main-header{
+        display:flex;
+        flex-direction:column;
+        flex-wrap:wrap;
+    }
+    
+    
+}
+/*---------------------------------------------Media querie para Desktop en adelante---------------------------*/
+@media(min-width:769px){
+
+    .product{
+        display:flex;  
+        flex-direction:column;
+        flex-wrap: wrap; 
+        width: 20%;
+        margin:5px;
+        padding:5px;
+
+    }
+    .product img{
+        width:50%;
+    }
+    .product_info{
+        width: 50%;
+    }
+    .main-navbar{
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .main-navbar ul{
+        list-style: none;
+        display: flex;
+    
+    }
+    .main-navbar a{
+        color: #222222;
+        text-decoration: none;
+        padding: 5px 0;
+    }
+    .main-navbar li {
+        margin: 5px;
+    }
+    .burger-menu{
+        display: none;
+    }
+    .caja-padre-logo-barra{
+        display: flex; 
+        justify-content: space-between;
+    }
+    .buscador{
+        display:flex;
+        align-self:center;
+    }
+    .visita{
+        text-align:left;
+        
+    }
+    .price{
+        display: inline;
+     }
+    .price_element{
+        font-size:18px;
+        font-family: 'roboto';
+    }
+    .price_discount{
+        font-size:16px;
+        font-family: 'roboto';
+    }
+   
+    .main_section_article{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        width:90vw;
+        justify-content: space-between;
+    }
+    
+
+        .main_section_article i{
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #39b54a;
+        background-color: #FFF;
+        border-radius: 50%;
+        position: absolute;
+        right: 20px;
+        top: -15px;
+        transition: all 450ms;
+    }
+    .main_section_article i:hover{
+        transform: rotate(-90deg);
+    }
+
+
+/*---------------------------------------------Estilos de animaciones---------------------------*/
+    #descripcion{
+        display:inline;
+        color: white;
+        transition: all 450ms;
+    }
+
+    #descripcion:hover{
+        color: black;
+    }
+
+    .caja-padre-footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+    }
+
+    .caja-contenedora-footer{
+        padding: 5px;
+        margin:5px;
+        transition: all 650ms;
+    }
+    .caja-contenedora-footer i:hover{
+        color:rgb(139, 0, 0);
+    }
+
+
+
+
+
+}
