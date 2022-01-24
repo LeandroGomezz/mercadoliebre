@@ -1,0 +1,26 @@
+<%- include('./partials/head')%>
+<body>
+    <%-include('./partials/header') %>
+                    
+     <!--Banner del sitio-->               
+     <div class="banner">  <img src="/img/img-home-banner.jpg"> </div>  
+
+
+     <form class="formulario" action="/" method="get"> 
+        
+        <input class="campo" type="text" name="usuario" id="usuario" placeholder="  Nombre de usuario">
+        
+        <input class="campo" type="password" name="contraseña" id="contraseña" placeholder="  Contraseña">
+
+        <div class="botones">
+            <button class="boton-login" type="submit" value="submit">Enviar</button>
+        </div>
+    </form>
+    <br>
+    <br>
+
+
+    <%- include('./partials/footer') %>
+
+</body>
+</html>
